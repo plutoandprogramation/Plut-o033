@@ -1,10 +1,10 @@
 body {
-    background-image: url("https://wallpapercave.com/wp/wp2687606.jpg");
+      background-image: url("https://wallpapercave.com/wp/wp2687606.jpg");
+    background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(238, 255, 0);
-    background-position: right;
-    height: 100%;
+    background-attachment: fixed;
 }
     
 .linki a{
