@@ -1,23 +1,24 @@
 body {
-      background-image: url("https://wallpapercave.com/wp/wp2687606.jpg");
+    background-image: url("https://wallpapercave.com/wp/wp2687606.jpg");
     background-position: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(238, 255, 0);
+    color: rgb(0, 162, 255);
     background-attachment: fixed;
+
 }
     
 .linki a{
-    color: rgb(229, 255, 0);
+    color: rgb(0, 162, 255);
 }
-
-label {
-    background-size: cover;
-}
-
 footer{
-    color:rgb(238, 255, 0) ;
+    color:rgb(0, 153, 255) ;
     text-align: center;
+   font-weight: bolder;
     
 }
+h2{
+    text-align: center;
+}
+
 
