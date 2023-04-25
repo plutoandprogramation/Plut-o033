@@ -1,25 +1,29 @@
 body {
-    background-image: url("https://wallpapercave.com/wp/wp2687606.jpg");
-    background-position: 100%;
+    background-image: url("https://naniwallpaper.com/files/wallpapers/roronoa-zoro/4-Roronoa%20Zoro-1080x1920.jpg");
+    background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(0, 162, 255);
+    color: rgb(255,235,205);
     background-attachment: fixed;
 
 }
     
 .linki a{
-    color: rgb(0, 162, 255);
+    color: rgb(255, 255, 255);
 }
 footer{
-    color:rgb(0, 153, 255) ;
+
+    color: #ffffff;
     text-align: center;
-   font-weight: bolder;
-    
+    opacity: 0.4;
 }
 h2{
     text-align: center;
-    font-weight: bolder;
+font-weight: bolder;
+}
+h6{
+    font-size: 15px;
+    color: rgb(165,42,42);
 }
 
 
