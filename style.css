@@ -5,17 +5,21 @@ body {
     background-size: cover;
     color: rgb(255,235,205);
     background-attachment: fixed;
+    
 
 }
     
 .linki a{
     color: rgb(255, 255, 255);
+ 
 }
 footer{
 
     color: #ffffff;
     text-align: center;
     opacity: 0.4;
+    position: relative;
+    top: 240px;    
 }
 h2{
     text-align: center;
@@ -28,6 +32,36 @@ h6{
 h7{
     font-size: 20px;
     text-align: center;
+
+}
+
+
+.espada:hover {
+
+    animation-name: espada;
+    animation-duration: 5s;
+    
+}
+.espada{
+    display: flex;
+    flex-direction: row;
+    max-width: 100px;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+
+
+}
+
+
+
+@keyframes espada{
+
+
+    0%{transform: rotate(0deg); left: 250px;}
+    50%{transform: rotate(360deg); left: 10px; }
+    100%{transform: rotate(360deg); left: 250px;}
+
 
 }
 
